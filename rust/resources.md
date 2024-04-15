@@ -1,0 +1,8 @@
+[Rust Exercises](https://github.com/rust-lang/rustlings)
+[Rust Book](https://doc.rust-lang.org/book/index.html)
+[Rust by Example](https://doc.rust-lang.org/rust-by-example/index.html)
+[Crypto Pals](https://cryptopals.com/)
+[Lambda works](https://github.com/lambdaclass/lambdaworks?tab=readme-ov-file)
+[Difference between SHA-2 and SHA-3](https://stackoverflow.com/questions/14356526/whats-the-difference-between-the-hash-algorithms-sha-2-and-sha-3)
+[Difference between SHA-2 and SHA-3](https://crypto.stackexchange.com/questions/68307/what-is-the-difference-between-sha-3-and-sha-256)
+[Privacy Scaling Explorations](https://github.com/privacy-scaling-explorations/core-program/blob/main/MODULE_2.md)
