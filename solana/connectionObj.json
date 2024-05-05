@@ -1,0 +1,68 @@
+{
+  _commitment: 'confirmed',
+  _confirmTransactionInitialTimeout: undefined,
+  _rpcEndpoint: 'https://api.devnet.solana.com',
+  _rpcWsEndpoint: 'wss://api.devnet.solana.com',
+  _rpcClient: ClientBrowser {
+    options: {
+      reviver: null,
+      replacer: null,
+      generator: [Function (anonymous)],
+      version: 2,
+      notificationIdNull: false
+    },
+    callServer: [AsyncFunction (anonymous)]
+  },
+  _rpcRequest: [Function (anonymous)],
+  _rpcBatchRequest: [Function (anonymous)],
+  _rpcWebSocket: RpcWebSocketClient {
+    _events: Events <[Object: null prototype] {}> {
+      open: [EE],
+      error: [EE],
+      close: [EE],
+      accountNotification: [EE],
+      programNotification: [EE],
+      slotNotification: [EE],
+      slotsUpdatesNotification: [EE],
+      signatureNotification: [EE],
+      rootNotification: [EE],
+      logsNotification: [EE]
+    },
+    _eventsCount: 10,
+    webSocketFactory: [Function: webSocketFactory],
+    queue: {},
+    rpc_id: 0,
+    address: 'wss://api.devnet.solana.com',
+    autoconnect: false,
+    ready: false,
+    reconnect: true,
+    reconnect_timer_id: undefined,
+    reconnect_interval: 1000,
+    max_reconnects: Infinity,
+    rest_options: {},
+    current_reconnects: 0,
+    generate_request_id: [Function (anonymous)],
+    dataPack: DefaultDataPack {},
+    underlyingSocket: undefined
+  },
+  _rpcWebSocketConnected: false,
+  _rpcWebSocketHeartbeat: null,
+  _rpcWebSocketIdleTimeout: null,
+  _rpcWebSocketGeneration: 0,
+  _disableBlockhashCaching: false,
+  _pollingBlockhash: false,
+  _blockhashInfo: {
+    latestBlockhash: null,
+    lastFetch: 0,
+    transactionSignatures: [],
+    simulatedSignatures: []
+  },
+  _nextClientSubscriptionId: 0,
+  _subscriptionDisposeFunctionsByClientSubscriptionId: {},
+  _subscriptionHashByClientSubscriptionId: {},
+  _subscriptionStateChangeCallbacksByHash: {},
+  _subscriptionCallbacksByServerSubscriptionId: {},
+  _subscriptionsByHash: {},
+  _subscriptionsAutoDisposedByRpc: Set(0) {},
+  getBlockHeight: [AsyncFunction (anonymous)]
+}
