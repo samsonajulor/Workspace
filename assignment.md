@@ -1,18 +1,22 @@
 #### **1. Arithmetic and Comparison Operators**
 
-**Task**: Write a JavaScript program to calculate the area of a rectangle, compare the area with a threshold value, and display appropriate messages using **Arithmetic** and **Comparison Operators**.
+**Task**: Write a JavaScript program to calculate the area of a rectangle, compare the area with a fixed value, and display appropriate messages using **Arithmetic** and **Comparison Operators**.
 
 - **Input**: Length and Width of the rectangle.
-- **Output**: Calculate the area and compare it with t dhe threshold of 100. Display if the area is greater than, equal to, or less than 100.
+- **Output**: Calculate the area and compare it with a fixed value of 100. Display if the area is greater than, equal to, or less than 100.
 
 **Steps**:
 1. Prompt the user for the length and width of the rectangle.
 2. Calculate the area: `Area = Length * Width`.
-3. Compare the area with the threshold of 100 using comparison operators (`==`, `>`, `<=`).
+3. Compare the area with a fixed of 100 using comparison operators (`==`, `>`, `<=`).
 4. Output the result.
 
----
+for example:
+4cm by 10cm = 40(cm^2)
 
+threshold/fixed-mark/fixed-value = 100(cm^2)
+
+sample comparison: let value1 = 40 >= 100
 #### **2. Logical Operators (25 minutes)**
 
 **Task**: Write a JavaScript program to check if a number is between 10 and 20, and print whether the number is **valid** or **invalid**.
@@ -25,7 +29,6 @@
 2. Check if the number is between 10 and 20 using logical **AND** (`&&`) and **OR** (`||`) operators.
 3. Print "Valid" if true, otherwise print "Invalid".
 
----
 
 ### **Session 2: TypeScript (45 minutes)**
 
@@ -41,7 +44,6 @@
 2. Use an `if-else` statement to check if the person is eligible to vote.
 3. Output the result.
 
----
 
 #### **2. Switch-Case Statement (10 minutes)**
 
@@ -55,7 +57,6 @@
 2. Use a `switch` statement to print the corresponding day of the week.
 3. Use a default case to print "Invalid day" if the number is not between 1 and 7.
 
----
 
 #### **3. Ternary Operator and Type Guards (30 minutes)**
 
@@ -69,7 +70,6 @@
 2. Use a ternary operator to check if the score is >= 50.
 3. Output the result.
 
----
 
 **Task 2**: Implement a function using **type guards** to greet a person. The function should check if the input is a `string` or `null` and print a greeting or a "No name provided" message.
 
@@ -81,7 +81,6 @@
 2. If it’s not `null`, greet the person with "Hello, [name]".
 3. If it is `null`, output "No name provided".
 
----
 
 ### **Session 3: TypeScript Functions (45 minutes)**
 
@@ -97,7 +96,6 @@
 2. Inside the function, use the formula `Area = Math.PI * radius^2`.
 3. Return the area and print it.
 
----
 
 **Task 2**: Write a TypeScript function to calculate the price after applying a discount. The function should accept the original price and the discount percentage as parameters. If no discount is provided, it should apply a default discount of 10%.
 
