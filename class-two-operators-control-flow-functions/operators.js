@@ -1,4 +1,5 @@
 // what are operators
+// types include: logical, conditional, arithmetic and comparison.
 // arithmetic operators are symbols used for mathematical expressions e.g. addition (+), subtraction (-), multiplication (*), division (/), modulo or remainder (%), increment (++), decrement (--);
 // let answer = 6 - 5;
 // let answer = Math.round(6 / 5);
@@ -47,6 +48,8 @@ console.log({ ans7 }); // false
 // console.log({ result }); // this returns 'a function to execute';
 
 // comparison operators strict equality (===) simple equality (==) greater than (>) less than (<), inequality (!=) strict inequality (!==)
+
+// strict comparison compares both type and value.
 let x = 10;
 let y = '10';
 // const result = x === y;
