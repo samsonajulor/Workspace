@@ -1,0 +1,22 @@
+{
+  "name": "class-05",
+  "version": "1.0.0",
+  "main": "dist/mongodb-server.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/mongodb-server.ts",
+    "start": "node dist/mongodb-server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "quikdb-cli-beta": "^4.0.1",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.10.7",
+    "nodemon": "^3.1.9"
+  }
+}
